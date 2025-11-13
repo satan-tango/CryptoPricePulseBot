@@ -52,6 +52,9 @@ public class TelegramFacade {
             case "GET PRICE":
                 botState = BotState.GET_PRICE;
                 break;
+            case "\uD83D\uDEBCSupport":
+                botState = BotState.SUPPORT;
+                break;
             default: {
                 if (botStateCash.getCurrentState(userId).isPresent()) {
                     botState = botStateCash.getCurrentState(userId).get();

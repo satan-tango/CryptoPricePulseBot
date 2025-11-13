@@ -1,7 +1,8 @@
 package com.varkovich.crypto.price.pulse.bot.cash;
 
 import com.varkovich.crypto.price.pulse.bot.utils.enums.BotState;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
+
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,18 +11,18 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
-@Service
+@Component
 public class BotStateCash {
     private final Map<Long, List<BotState>> cashState = new HashMap<>();
 
-    public void saveCashState(long userId, BotState state) {
+    public void saveBotState(long userId, BotState state) {
         if (cashState.containsKey(userId)) {
             List<BotState> states = cashState.get(userId);
-            if (states.get(states.size() - 1) != state) {
+            if (states.getLast() != state) {
                 //Чтобы количество состояние не превышало 15
                 //Удаляю первое состояние
                 if (states.size() > 15) {
-                    states.remove(0);
+                    states.removeFirst();
                 }
                 states.add(state);
                 cashState.put(userId, states);
@@ -30,7 +31,7 @@ public class BotStateCash {
 
         } else {
             if (state == BotState.START) {
-                cashState.put(userId, new ArrayList<>(Arrays.asList(BotState.START)));
+                cashState.put(userId, new ArrayList<>(List.of(BotState.START)));
             } else {
                 cashState.put(userId, new ArrayList<>(Arrays.asList(BotState.START, state)));
             }
@@ -45,7 +46,7 @@ public class BotStateCash {
         }
     }
 
-    public void cleaningCashState(long userId) {
-        cashState.put(userId, new ArrayList<>(Arrays.asList(BotState.START)));
+    public void cleaningBotState(long userId) {
+        cashState.put(userId, new ArrayList<>(List.of(BotState.START)));
     }
 }
