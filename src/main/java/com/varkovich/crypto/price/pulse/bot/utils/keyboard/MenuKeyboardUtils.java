@@ -23,9 +23,9 @@ public class MenuKeyboardUtils {
         KeyboardRow row3 = new KeyboardRow();
         KeyboardRow row4 = new KeyboardRow();
 
-        row1.add(new KeyboardButton("\uD83D\uDDDEGet Prices"));
-        row2.add(new KeyboardButton("\uD83D\uDCC2CONSTRUCTING"));
-        row3.add(new KeyboardButton("\uD83D\uDD0DCONSTRUCTING"));
+        row1.add(new KeyboardButton("Get Price"));
+        row2.add(new KeyboardButton("CONSTRUCTING"));
+        row3.add(new KeyboardButton("CONSTRUCTING"));
         row4.add(new KeyboardButton("⚙️Settings"));
         row4.add(new KeyboardButton("\uD83D\uDEBCSupport"));
 

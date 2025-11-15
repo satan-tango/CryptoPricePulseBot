@@ -28,3 +28,50 @@
 2025-11-14 01:20:07 INFO  TelegramFacade:32 - Text message has been received: 🚼Support; User Id: 5062525998
 2025-11-14 01:20:07 INFO  UserCash:24 - User with ID 5062525998 is in local cash.
 2025-11-14 01:20:07 INFO  BotSendMessageService:22 - Message: To ask a question or get any information, contact to [@ammor_faTtiI]: has been sent to chatId:5062525998
+2025-11-14 22:16:45 INFO  TelegramFacade:32 - Text message has been received: 🗞Get Prices; User Id: 5062525998
+2025-11-14 22:16:45 INFO  UserCash:16 - User with ID 5062525998 is not in local cash.
+2025-11-14 22:16:45 INFO  UserCash:30 - User with ID 5062525998 has been saved to local cash.
+2025-11-14 22:16:48 INFO  TelegramFacade:32 - Text message has been received: 🗞Get Prices; User Id: 5062525998
+2025-11-14 22:16:48 INFO  UserCash:24 - User with ID 5062525998 is in local cash.
+2025-11-14 22:17:10 INFO  TelegramFacade:32 - Text message has been received: 🗞Get Prices; User Id: 5062525998
+2025-11-14 22:17:10 INFO  UserCash:24 - User with ID 5062525998 is in local cash.
+2025-11-14 22:18:00 INFO  TelegramFacade:32 - Text message has been received: 🗞Get Prices; User Id: 5062525998
+2025-11-14 22:18:00 INFO  UserCash:24 - User with ID 5062525998 is in local cash.
+2025-11-14 22:18:08 INFO  TelegramFacade:32 - Text message has been received: 🗞Get Prices; User Id: 5062525998
+2025-11-14 22:18:08 INFO  UserCash:16 - User with ID 5062525998 is not in local cash.
+2025-11-14 22:18:08 INFO  UserCash:30 - User with ID 5062525998 has been saved to local cash.
+2025-11-14 22:18:08 INFO  TelegramFacade:32 - Text message has been received: 🗞Get Prices; User Id: 5062525998
+2025-11-14 22:18:08 INFO  UserCash:24 - User with ID 5062525998 is in local cash.
+2025-11-14 22:18:10 INFO  TelegramFacade:32 - Text message has been received: Get Price; User Id: 5062525998
+2025-11-14 22:18:10 INFO  UserCash:24 - User with ID 5062525998 is in local cash.
+2025-11-14 22:18:30 INFO  TelegramFacade:32 - Text message has been received: 🚼Support; User Id: 5062525998
+2025-11-14 22:18:30 INFO  UserCash:16 - User with ID 5062525998 is not in local cash.
+2025-11-14 22:18:30 INFO  UserCash:30 - User with ID 5062525998 has been saved to local cash.
+2025-11-14 22:18:31 INFO  BotSendMessageService:22 - Message: To ask a question or get any information, contact to [@ammor_faTtiI]: has been sent to chatId:5062525998
+2025-11-14 22:18:33 INFO  TelegramFacade:32 - Text message has been received: Get Price; User Id: 5062525998
+2025-11-14 22:18:33 INFO  UserCash:24 - User with ID 5062525998 is in local cash.
+2025-11-14 22:18:36 INFO  TelegramFacade:25 - Callback has been received: BTC:2; User Id: 5062525998
+2025-11-14 22:18:37 INFO  TelegramFacade:25 - Callback has been received: ETH2; User Id: 5062525998
+2025-11-14 22:18:38 INFO  TelegramFacade:25 - Callback has been received: SOL2; User Id: 5062525998
+2025-11-15 00:05:55 INFO  TelegramFacade:46 - Text message has been received: Get Price; User Id: 5062525998
+2025-11-15 00:05:55 INFO  UserCash:16 - User with ID 5062525998 is not in local cash.
+2025-11-15 00:05:56 INFO  UserCash:30 - User with ID 5062525998 has been saved to local cash.
+2025-11-15 00:09:36 INFO  TelegramFacade:32 - Callback has been received: BTC:2; User Id: 5062525998
+2025-11-15 00:09:46 INFO  TelegramFacade:37 - Callback has been received: BTC:2 which are connected to state; User Id: 5062525998
+2025-11-15 00:10:24 INFO  TelegramFacade:48 - Text message has been received: Get Price; User Id: 5062525998
+2025-11-15 00:10:24 INFO  UserCash:16 - User with ID 5062525998 is not in local cash.
+2025-11-15 00:10:24 INFO  UserCash:30 - User with ID 5062525998 has been saved to local cash.
+2025-11-15 00:10:25 INFO  TelegramFacade:32 - Callback has been received: BTC:2; User Id: 5062525998
+2025-11-15 00:11:02 INFO  TelegramFacade:48 - Text message has been received: ⚙️Settings; User Id: 5062525998
+2025-11-15 00:11:02 INFO  UserCash:16 - User with ID 5062525998 is not in local cash.
+2025-11-15 00:11:03 INFO  UserCash:30 - User with ID 5062525998 has been saved to local cash.
+2025-11-15 00:11:03 INFO  TelegramFacade:48 - Text message has been received: 🚼Support; User Id: 5062525998
+2025-11-15 00:11:03 INFO  UserCash:24 - User with ID 5062525998 is in local cash.
+2025-11-15 00:11:03 INFO  BotSendMessageService:22 - Message: To ask a question or get any information, contact to [@ammor_faTtiI]: has been sent to chatId:5062525998
+2025-11-15 00:11:04 INFO  TelegramFacade:48 - Text message has been received: 🚼Support; User Id: 5062525998
+2025-11-15 00:11:04 INFO  UserCash:24 - User with ID 5062525998 is in local cash.
+2025-11-15 00:11:04 INFO  BotSendMessageService:22 - Message: To ask a question or get any information, contact to [@ammor_faTtiI]: has been sent to chatId:5062525998
+2025-11-15 00:11:06 INFO  TelegramFacade:32 - Callback has been received: ETH:2; User Id: 5062525998
+2025-11-15 00:11:06 INFO  TelegramFacade:37 - Callback has been received: ETH:2 which are connected to state; User Id: 5062525998
+2025-11-15 00:11:13 INFO  TelegramFacade:32 - Callback has been received: BTC:2; User Id: 5062525998
+2025-11-15 00:11:13 INFO  TelegramFacade:37 - Callback has been received: BTC:2 which are connected to state; User Id: 5062525998

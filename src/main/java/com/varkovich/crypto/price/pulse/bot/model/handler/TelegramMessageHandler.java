@@ -5,6 +5,7 @@ import com.varkovich.crypto.price.pulse.bot.cash.UserCash;
 import com.varkovich.crypto.price.pulse.bot.dao.UserDAO;
 import com.varkovich.crypto.price.pulse.bot.model.handler.events.MessageEvents;
 import com.varkovich.crypto.price.pulse.bot.service.BotSendMessageService;
+import com.varkovich.crypto.price.pulse.bot.service.keyboard.InlineKeyboardService;
 import com.varkovich.crypto.price.pulse.bot.service.keyboard.MenuService;
 import com.varkovich.crypto.price.pulse.bot.utils.enums.BotState;
 import lombok.AllArgsConstructor;
@@ -22,6 +23,7 @@ public class TelegramMessageHandler {
     private final BotStateCash botStateCash;
     private final MenuService menuService;
     private final BotSendMessageService botSendMessageService;
+    private final InlineKeyboardService inlineKeyboardService;
     private final UserCash userCash;
 
     public BotApiMethod<?> handleInputMessage(Message message, BotState botState) {
@@ -47,6 +49,9 @@ public class TelegramMessageHandler {
             case "START" -> {
                 botStateCash.cleaningBotState(userId);
                 return menuService.generateMainMenu(userId);
+            }
+            case "GET_PRICE" -> {
+                return inlineKeyboardService.generateInlineKeyboardForPickCryptoToGetPrice(chatId, botState.getNumberOfState());
             }
             case "SUPPORT" -> {
                 botSendMessageService.executeBotRequest("To ask a question or get any information, contact to [@ammor_faTtiI]: ", chatId);
